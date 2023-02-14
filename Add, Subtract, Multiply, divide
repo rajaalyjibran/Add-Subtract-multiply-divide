@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a, b ;
+    int Sum ,Difference, Multiplication;
+    float Divide;
+    
+    cout<<"Enter first number : " <<endl;
+    cin>>a;
+    cout<<"***"<<endl;
+    
+    cout<<"Enter second number: " <<endl;
+    cin>>b;
+    cout<<"***"<<endl;
+     
+    // Addition
+    Sum = a+b;
+    
+    // Subtraction
+    Difference = a - b;
+    
+    // Multiplication
+    Multiplication = a*b;
+    
+    // Dividision
+    Divide =(float)a / b;
+    
+    cout<<"Sum =" <<Sum <<endl;
+    cout<<"***"<<endl;
+    cout<<"Difference =" <<Difference<<endl; 
+    cout<<"***"<<endl;
+    cout<<"Product =" <<Multiplication<<endl;
+    cout<<"***"<<endl;
+    cout<<"Quotient =" <<Divide<<endl;
+
+    return 0;
+}
+
